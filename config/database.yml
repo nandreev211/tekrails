@@ -1,0 +1,14 @@
+defaults: &defaults
+  adapter: postgresql
+  encoding: unicode
+  username: postgres
+  password: admin
+  host: localhost
+
+development:
+  <<: *defaults
+  database: tekrails_dev
+
+test:
+  <<: *defaults
+  database: tekrails_test

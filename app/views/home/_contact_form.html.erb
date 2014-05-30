@@ -1,0 +1,6 @@
+<%= form_for(@message, :remote => true, :html => {:class => "contact-form"}) do |f|%>
+    <%= f.text_field :name, :placeholder => "Name", :class => "input-box" %>
+    <%= f.text_field :email, :placeholder => "E-mail", :class => "input-box" %>
+    <%= f.text_area :message, :rows => 4, :cols => 60, :placeholder => "Message", :class => "input-box" %>
+    <%= f.button "Send", :type => "submit", :class => "submit-button" %>
+<% end %>

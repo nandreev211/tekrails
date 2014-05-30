@@ -1,0 +1,26 @@
+<div class="row" id="team-row">
+  <div class="width-container">
+    <div class="border">
+      <span class="border-left"></span>
+      <span class="border-icon"></span>
+      <span class="border-right"></span>
+    </div>
+
+    <h3>
+      OUR TEAM
+    </h3>
+
+    <span class="sub-heading">
+        ollis nunc a lacus varius aliquam stas<br/>
+        velit ut ipsum varius rutrum.
+    </span>
+
+    <div id="team-members">
+      <%= render :partial => @members if @members.present? %>
+    </div>
+
+    <a href="/team" class="red-button">
+      READ MORE
+    </a>
+  </div>
+</div>

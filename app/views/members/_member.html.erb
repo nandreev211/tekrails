@@ -1,0 +1,15 @@
+<div class="team-member">
+  <div class="image-container">
+    <div>
+      <img src="<%= member.image.url(:medium)%>" alt="" class="team-frame-pic1"/>
+      <img src="<%= member.image_sel.url(:medium)%>" alt="" class="team-frame-pic2"/>
+    </div>
+  </div>
+  <span class="shadow"></span>
+  <span class="name">
+    <%= member.first_name%>
+  </span>
+  <span class="position">
+    <%= member.position %>
+  </span>
+</div>

@@ -1,0 +1,25 @@
+<div class="row" id="slider-row">
+  <div class="width-container">
+    <% if @banners.present? %>
+      <ul id="slider">
+        <%= render :partial => @banners %>
+      </ul>
+    <% end %>
+
+    <a href="#" class="red-button medium">
+      View Open Positions
+    </a>
+
+  </div>
+
+</div>
+
+<div class="row" id="team-row">
+  <div class="width-container">
+
+    <div id="team-members">
+      <%= render :partial => @members if @members.present? %>
+    </div>
+  </div>
+
+</div>

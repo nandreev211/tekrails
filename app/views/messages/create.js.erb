@@ -1,0 +1,13 @@
+<%
+if @message.errors.any?
+  error_message = ""
+  @message.errors.full_messages.each do |msg|
+    error_message += msg.gsub('\'', '\u0027')+"\\n";
+  end
+ %>
+$('form.contact-form').html('<%= escape_javascript(render('home/contact_form')) %>');
+alert('<%= error_message %>')
+<% else %>
+$('form.contact-form').html('<%= escape_javascript(render('home/contact_form_empty')) %>');
+$.ctNotify('Message sent! Thank you for contacting us.', 'notice');
+<% end %>

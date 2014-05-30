@@ -1,0 +1,28 @@
+<% if @banners.present? %>
+    <div class="row" id="slider-row">
+      <div class="width-container">
+        <ul id="slider">
+        <%= render :partial => @banners %></div>
+      </ul>
+    </div>
+    </div>
+<% end %>
+
+<div class="row" id="work-row">
+  <div class="width-container">
+    <div class="border">
+      <span class="border-left"></span>
+      <span class="border-icon"></span>
+      <span class="border-right"></span>
+    </div>
+
+    <h3>
+      Our Works
+    </h3>
+
+    <ul class="frame-list">
+      <%= render :partial => @works if @works.present? %>
+      <li class="clear"></li>
+    </ul>
+  </div>
+</div>

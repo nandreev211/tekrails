@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <%= stylesheet_link_tag    "application", :media => "all" %>
+    <%= javascript_include_tag "application" %>
+    <%= csrf_meta_tags %>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <title>TekRails - A RUBY ON RAILS AGENCY</title>
+
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link rel='stylesheet' media='screen and (min-width: 481px) and (max-width: 899px)' href='assets/css/styles-800.css' />
+    <link rel='stylesheet' media='screen and (max-width: 480px)' href='assets/css/styles-320.css' />
+    <!--[if lte IE 8]>
+    <link href="/assets/css/styles-ie8.css" rel="stylesheet" type="text/css"/>
+    <script src="/assets/js/html5shiv.min.js" type="text/javascript"></script>
+    <script src="/assets/js/selectivizr-min.js" type="text/javascript"></script>
+    <![endif]-->
+    <!--[if lte IE 9]>
+    <script src="/assets/js/placeholders.jquery.min.js" type="text/javascript"></script>
+    <![endif]-->
+
+  </head>
+  <body id="home-body">
+
+  <div id="mobile-nav">
+    <button id="menu-button"></button>
+    <div id="fixed-nav">
+      <ul>
+        <li>
+          <a id="home-link-duplicate">HOME</a>
+        </li>
+        <li>
+          <a id="work-link-duplicate">WORK</a>
+        </li>
+        <li>
+          <a id="services-link-duplicate">SERVICES</a>
+        </li>
+        <li>
+          <a id="process-link-duplicate">PROCESS</a>
+        </li>
+        <li>
+          <a id="team-link-duplicate">TEAM</a>
+        </li>
+        <li>
+          <a>OPEN SOURCE</a>
+        </li>
+        <li>
+          <a id="contact-us-link-duplicate">CONTACT US</a>
+        </li>
+      </ul>
+
+    </div>
+
+  </div>
+
+  <header>
+    <div class="width-container">
+      <ul id="nav">
+        <li class="active">
+          <a href="#slider-row" class="nav-link" id="home-link">HOME</a>
+        </li>
+        <li>
+          <a href="#work-row" class="nav-link" id="work-link">WORK</a>
+        </li>
+        <li>
+          <a href="#services-row" class="nav-link" id="services-link">SERVICES</a>
+        </li>
+        <li>
+          <a href="#process-row" class="nav-link" id="process-link">PROCESS</a>
+        </li>
+        <li>
+          <a href="#team-row" class="nav-link" id="team-link">TEAM</a>
+        </li>
+        <li>
+          <a href="open-src.html" class="nav-link" id="open-src-link">OPEN<br/> SOURCE</a>
+        </li>
+        <li>
+          <a href="#contact-row" class="nav-link" id="contact-us-link">CONTACT<br/>  US</a>
+        </li>
+      </ul>
+
+    </div>
+  </header>
+
+  <div id="main-container">
+
+    <script type="text/javascript">
+        $.ctNotifyOption({
+            sticky: false,
+            position: "fixed",
+            width: '400px',
+            anchors:{bottom: 0, right: 0}
+        });
+    </script>
+    <% flash.each do |name, msg| -%>
+        <%= content_tag :div, msg, class: name %>
+        <script type="text/javascript">
+            $.ctNotify('<%= msg%>')
+        </script>
+    <% end %>
+
+    <%= yield %>
+
+  </div>
+
+  <footer>
+    <ul class="left">
+      <li>
+        <a href="#">legal disclaimer</a>
+      </li>
+      <li>
+        <a href="#">privacy policy</a>
+      </li>
+    </ul>
+    <ul class="right">
+      <li>
+        <a href="/">home</a>
+      </li>
+      <li>
+        <a href="/works">work</a>
+      </li>
+      <li>
+        <a href="/services">services</a>
+      </li>
+      <li>
+        <a href="/process">process</a>
+      </li>
+      <li>
+        <a href="/team">team</a>
+      </li>
+      <li>
+        <a href="/open-src">open source</a>
+      </li>
+      <li>
+        <a href="/contact">contact us</a>
+      </li>
+    </ul>
+  </footer>
+
+  <script>
+      $(window).load(function(){
+          $('#nav').singlePageNav({
+              offset: 50
+          });
+      });
+  </script>
+  </body>
+</html>

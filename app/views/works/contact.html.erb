@@ -1,0 +1,24 @@
+<div class="row" id="slider-row">
+  <div class="width-container">
+    <% if @banners.present? %>
+      <ul id="slider">
+        <%= render :partial => @banners %>
+      </ul>
+    <% end %>
+
+    <a class="red-button">
+      Email Us Today
+    </a>
+  </div>
+</div>
+
+<div class="row" id="contact-row">
+  <div class="width-container">
+    <div id="contact-map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d21023.11746802883!2d-123.62876974919547!3d48.80308405036177!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548f4ff9af456cff%3A0xea07e1144fcef25d!2s1276+McKenzie+Dr!5e0!3m2!1str!2s!4v1399404088723" frameborder="0" style="border:0"></iframe>
+      <!--<div class="contact-form">-->
+        <%= render(:partial => 'home/contact_form') %>
+      <!--</div>-->
+    </div>
+  </div>
+</div>

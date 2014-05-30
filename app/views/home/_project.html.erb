@@ -1,0 +1,22 @@
+<div class="row" id="work-row">
+  <div class="width-container">
+    <div class="border">
+      <span class="border-left"></span>
+      <span class="border-icon"></span>
+      <span class="border-right"></span>
+    </div>
+
+    <h3>
+      OUR WORK
+    </h3>
+
+    <ul class="frame-list">
+      <%= render :partial => @works if @works.present? %>
+      <li class="clear"></li>
+    </ul>
+
+    <a href="/works" class="red-button wide">
+      Take a look at our portfolio
+    </a>
+  </div>
+</div>

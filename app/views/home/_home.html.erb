@@ -1,0 +1,29 @@
+<% if @banners.present? %>
+<div class="row" id="slider-row">
+  <div class="width-container">
+    <ul id="slider">
+      <%= render :partial => @banners %>
+    </ul>
+  </div>
+</div>
+<% end %>
+
+<div class="row" id="who-we-are-row">
+  <div class="width-container">
+    <div class="container">
+      <h2>
+        We are a<br/>
+        Ruby on Rails<br/>
+        agency
+      </h2>
+
+      <p>
+        that practices agile development to build your site or app. We would like you to think of us as an
+        extension of<br/>
+        <span class="extra-bold">your team</span> rather than simply a service provider.
+      </p>
+    </div>
+
+    <img src="assets/handshake.jpg" alt=""/>
+  </div>
+</div>
