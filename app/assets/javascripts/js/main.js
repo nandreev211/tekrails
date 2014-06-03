@@ -11,11 +11,6 @@ $(window).load(function(){
         touchEnabled: false
     });
 
-    $('#home-body #fixed-nav a').click(function(){
-        var link = $(this).attr('id').replace('-duplicate', '');
-        $('#' + link).click();
-    })
-
     $('#fixed-nav a').click(function(){
         $('#fixed-nav a').removeClass('current');
         $(this).addClass('current');
@@ -34,11 +29,10 @@ $(window).scroll(function(){
     }
 
     $('.nav-link').each(function() {
-
-        if ($(this).hasClass('current')){
-            $('#fixed-nav a').removeClass('current');
-            var id = $(this).attr('id');
-            $('#' + id + '-duplicate').addClass('current');
-        }
+//        if ($(this).hasClass('current')){
+//            $('#fixed-nav a').removeClass('current');
+//            var id = $(this).attr('id');
+//            $('#' + id + '-duplicate').addClass('current');
+//        }
     });
 });

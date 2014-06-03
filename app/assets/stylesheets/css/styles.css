@@ -9,8 +9,9 @@ body{
     margin: 0 auto;
 }
 
-#home-body #main-container{
+#main-container{
     background: url("/assets/footer-bg.png") no-repeat 50% 100%;
+    padding: 0 0 260px 0;
 }
 
 header{
@@ -709,7 +710,7 @@ footer{
     height: 39px;
     background: rgba(255, 255, 255, 0.41);
     position: relative;
-    margin: 75px auto 110px;
+    margin: -150px auto 110px;
 }
 
 #home-body footer{
@@ -763,10 +764,6 @@ footer .right li{
 #brands-row{
     padding: 0 0 180px 0;
     background: url("/assets/footer-bg.png") no-repeat 50% 100%;
-}
-
-#work-body #main-container{
-    background: none;
 }
 
 #contact-row-grey{
@@ -896,10 +893,6 @@ footer .right li{
 
 #contact-body #contact-map {
     margin: 110px auto 0;
-}
-
-#contact-body footer {
-    margin: 35px auto 110px;
 }
 
 #mobile-nav{

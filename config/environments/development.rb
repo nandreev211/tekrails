@@ -35,6 +35,6 @@ TekRails::Application.configure do
   # Expands the lines which load the assets
   config.assets.debug = true
 
-  ENV['MAILGUN_API_KEY'] = "key-2b5bpls78kx7me57cpahdioqsno5x8d6"
+  ENV['MAILGUN_API_KEY'] = "mailgun-key"
 
 end

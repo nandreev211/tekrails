@@ -65,5 +65,5 @@ TekRails::Application.configure do
   # with SQLite, MySQL, and PostgreSQL)
   # config.active_record.auto_explain_threshold_in_seconds = 0.5
 
-  ENV['MAILGUN_API_KEY'] = "key-2b5bpls78kx7me57cpahdioqsno5x8d6"
+  ENV['MAILGUN_API_KEY'] = "mailgun-key"
 end
