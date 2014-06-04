@@ -32,8 +32,8 @@ module TekRails
         :address => "smtp.mailgun.org",
         :port => 587,
         :domain => "tekrails.com",
-        :user_name => "username",
-        :password => "password"
+        :user_name => "postmaster@tekrails.com",
+        :password => "tekrails"
     }
   end
 end

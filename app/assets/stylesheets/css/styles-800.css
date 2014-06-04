@@ -49,8 +49,8 @@ body {
 }
 
 .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {
-    bottom: 14px;
-    right: 40px;
+    /*bottom: 14px;*/
+    /*right: 40px;*/
 }
 
 #who-we-are-row .container {
