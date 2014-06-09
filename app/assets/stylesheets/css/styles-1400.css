@@ -1,12 +1,11 @@
 body{
     background: #f8f8f8 url("/assets/top-bg.png") 50% 0% no-repeat;
-    background-size: 100%;
     font-family: 'open sans', arial, helvetica, sans-serif;
     color: #181818;
 }
 
 .width-container{
-    width: 1220px;
+    width: 900px;
     margin: 0 auto;
 }
 
@@ -36,7 +35,7 @@ header.fixed{
 }
 
 #nav li{
-    height: 115px;
+    height: 85px;
     min-width: 85px;
     float: left;
     margin: 0 0 0 22px;
@@ -47,19 +46,11 @@ header.fixed{
     margin: 0;
 }
 
-.bx-wrapper .bx-pager,
-.bx-wrapper .bx-controls-auto {
-    bottom: -20px;
-    right: 42px;
-    /* width: 100%; */
-}
-
 #nav a.current{
     background: url("/assets/nav-active.png") no-repeat 50% 0%;
-    background-size: contain;
     color: #fff;
-    height: 70px;
-    min-width: 115px;
+    height: 52px;
+    min-width: 85px;
 }
 
 #nav li br{
@@ -71,10 +62,10 @@ header.fixed{
 }
 
 #nav a{
-    font-size: 18px;
+    font-size: 13px;
     color: inherit;
     vertical-align: middle;
-    padding: 45px 0px 0px 0px;;
+    padding: 33px 0px 0px 0px;;
     display: block;
 }
 
@@ -111,7 +102,7 @@ header.fixed{
 
 .slide-image{
     float: left;
-    margin: 0 0 0 146px;
+    margin: 0 0 0 46px;
 }
 
 .slide{
@@ -120,14 +111,14 @@ header.fixed{
 
 .slide .container{
     float: right;
-    width: 640px;
+    width: 465px;
     margin: 12px 41px 0px 0px;
 }
 
 .slide h1{
-    font-size: 67px;
+    font-size: 50px;
     font-weight: 300;
-    line-height: 57px;
+    line-height: 42px;
     text-transform: uppercase;
     display: table-cell;
     vertical-align: middle;
@@ -141,9 +132,9 @@ header.fixed{
 }
 
 .slide p{
-    font-size: 23px;
+    font-size: 17px;
     font-weight: 500;
-    line-height: 33px;
+    line-height: 25px;
     color: #515151;
     margin: 20px 0px 0px 0px;
     text-transform: uppercase;
@@ -154,24 +145,24 @@ header.fixed{
 }
 
 #who-we-are-row .container{
-    width: 750px;
+    width: 555px;
     float: left;
     margin: 80px 0px 0px 0px;
     text-transform: uppercase;
 }
 
 h2,h3{
-    font-size: 67px;
+    font-size: 50px;
     font-weight: 700;
-    line-height: 55px;
+    line-height: 41px;
     color: #2a2a2a;
     text-transform: uppercase;
     display: inline-block;
 }
 
 #who-we-are-row p{
-    font-size: 23px;
-    line-height: 33px;
+    font-size: 17px;
+    line-height: 25px;
     color: #2a2a2a;
     margin: 13px 0px 0px 0px;
 }
@@ -190,7 +181,7 @@ h2,h3{
 }
 
 #work-row{
-    /*background: url("/assets/work-row-bg.jpg") 50% 0% no-repeat;*/
+    background: url("/assets/work-row-bg.jpg") 50% 0% no-repeat;
     margin: 76px auto 0;
     padding: 0 0 96px 0;
 }
@@ -212,7 +203,7 @@ h2,h3{
 }
 
 .border-left, .border-right{
-    width: 575px;
+    width: 415px;
     height: 1px;
     background: #d1d1d1;
 }
@@ -230,12 +221,11 @@ h2,h3{
 
 #work-row .frame-list{
     background: url("/assets/work-border.png") 0px 29px no-repeat;
-    background-size: cover;
 }
 
 .frame{
-    width: 281px;
-    height: 281px;
+    width: 201px;
+    height: 201px;
     float: left;
     margin: 29px 0px 0px 32px;
     position: relative;
@@ -251,7 +241,7 @@ h2,h3{
 }
 
 .frame .caption{
-    width: 267px;
+    width: 187px;
     min-height: 26px;
     font-size: 19px;
     padding: 11px 0 9px 14px;
@@ -277,8 +267,8 @@ h2,h3{
 }
 
 .work-link img{
-    width: 281px;
-    height: 281px;
+    width: 201px;
+    height: 201px;
 }
 
 .clear{
@@ -334,7 +324,7 @@ h2,h3{
 }
 
 .sub-heading{
-    font-size: 23px;
+    font-size: 17px;
     margin: 19px 0 0 0;
     display: block;
     color: #2a2a2a;
@@ -347,7 +337,7 @@ h2,h3{
     clear: both;
     /* clear: both; */
     position: relative;
-    height: 340px;;
+    height: 212px;;
 }
 
 
@@ -365,31 +355,30 @@ h2,h3{
 
 .line .container.left{
     /* margin: 16px 0px 0px 0px; */
-    width: 875px;
+    width: 605px;
     float: none;
     display: inline-block;
     vertical-align: middle;
 }
 
 .line h6{
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 700;
     color: #bd2227;
 }
 
 .line p{
-    font-size: 23px;
-    line-height: 36px;
+    font-size: 16px;
+    line-height: 25px;
     color: #2a2a2a;
     margin: 0px 0px 0px 0px;
     text-transform: uppercase;
 }
 
 .line .line-icon{
-    width: 270px;
-    height: 270px;
+    width: 212px;
+    height: 212px;
     background: url("/assets/line-icon.png");
-    background-size: cover;
     display: block;
     position: absolute;
     top: 50%;
@@ -406,10 +395,10 @@ h2,h3{
 
 .line .container.right{
     /* margin: 15px 0px 0px 265px; */
-    width: 900px;
+    width: 635px;
     text-align: right;
     position: relative;
-    right: -320px;
+    right: -245px;
     float: none;
     display: inline-block;
     vertical-align: middle;
@@ -429,27 +418,26 @@ h2,h3{
 }
 
 #process-container{
-    height: 460px;
+    height: 420px;
     background: url("/assets/process-bg.jpg") no-repeat;
-    background-size: cover;
     margin: 61px 0px 0px 0px;
     position: relative;
 }
 
 .process{
-    width: 306px;
-    height: 306px;
+    width: 222px;
+    height: 222px;
     position: absolute;
     text-align: center;
     /* vertical-align: middle; */
     /* position: relative; */
     /* display: inline-block; */
-    line-height: 330px;
+    line-height: 240px;
     text-transform: uppercase;
 }
 
 .process span{
-    font: 400 40px 'Estrangelo Edessa', 'sans-serif';
+    font: 400 30px 'Estrangelo Edessa', 'sans-serif';
     color: #fff;
     /* display: inline-block; */
     /* vertical-align: middle; */
@@ -458,7 +446,7 @@ h2,h3{
 }
 
 .process p{
-    font: 400 16px/19px 'Estrangelo Edessa', 'sans-serif';
+    font: 400 12px/15px 'Estrangelo Edessa', 'sans-serif';
     color: #fff;
     display: inline-block;
     vertical-align: middle;
@@ -468,49 +456,49 @@ h2,h3{
 }
 
 #process2{
-    top: 153px;
-    left: 153px;
+    top: 108px;
+    left: 116px;
 }
 
 #process2 p{
-    width: 155px;
+    width: 125px;
 }
 
 #process3{
     top: -8px;
-    left: 308px;
+    left: 224px;
 }
 
 #process3 p{
-    width: 175px;
+    width: 140px;
 }
 
 #process4{
-    top: 153px;
-    left: 457px;
+    top: 109px;
+    left: 337px;
 }
 
 #process5{
-    top: 0px;
-    left: 610px;
+    top: -9px;
+    left: 450px;
 }
 
 #process5 p{
-    width: 170px;
+    width: 126px;
 }
 
 #process6{
-    top: 153px;
-    left: 763px;
+    top: 108px;
+    left: 555px;
 }
 
 #process6 p{
-    width: 175px;
+    width: 135px;
 }
 
 #process7{
     top: 1px;
-    left: 914px;
+    left: 674px;
 }
 
 #team-row{
@@ -518,7 +506,7 @@ h2,h3{
 }
 
 #home-body #team-row{
-    /*background: url("/assets/team-bg.png") no-repeat 50% -32px;*/
+    background: url("/assets/team-bg.png") no-repeat 50% -32px;
 }
 
 #team-row h3{
@@ -543,7 +531,7 @@ h2,h3{
     /* height: 192px; */
     /* margin: 38px; */
     /* overflow: hidden; */
-    margin: auto 45px;
+    margin: auto;
 }
 
 .team-member .image-container div{
@@ -585,7 +573,7 @@ h2,h3{
     -webkit-transform: translateZ(0) scale(1.0, 1.0);
     transition: opacity 0.5s;
     position: absolute;
-    left: 45px;
+    left: 0;
     border-radius: 135px;
 }
 
@@ -618,7 +606,7 @@ h2,h3{
 }
 
 #contact-row{
-    height: 575px;
+    height: 400px;
     padding: 0 0 260px 0;
 }
 
@@ -631,8 +619,8 @@ h2,h3{
 }
 
 #contact-map{
-    width: 1220px;
-    height: 525px;
+    width: 900px;
+    height: 395px;
     margin: 66px auto 0;
     position: relative;
 }
@@ -668,12 +656,12 @@ h2,h3{
 }
 
 #contact-map iframe{
-    width: 1220px;
-    height: 525px;
+    width: 900px;
+    height: 395px;
 }
 
 .contact-form{
-    width: 267px;
+    width: 237px;
     /* height: 246px; */
     padding: 6px 0px 8px 15px;
     background: #fff;
@@ -686,7 +674,7 @@ h2,h3{
 }
 
 .contact-form .input-box{
-    width: 232px;
+    width: 202px;
     /* height: 39px; */
     font-size: 13px;
     color: #716565;
@@ -699,28 +687,27 @@ h2,h3{
 }
 
 .contact-form textarea.input-box{
-    height: 97px;
+    height: 67px;
     padding: 11px 9px;
     resize: none;
     overflow-y: auto;
 }
 
 .contact-form .submit-button{
-    height: 50px;
-    font-size: 17px;
+    height: 40px;
+    font-size: 13px;
     font-weight: 600;
     color: #716565;
     background: url("/assets/submit-button.png") 100% 0px no-repeat;
-    background-size: contain;
     float: right;
     clear: both;
     margin: 1px 15px 0px 0px;
-    padding: 0px 58px 0px 0px;
+    padding: 0px 44px 0px 0px;
     text-transform: uppercase;
 }
 
 footer{
-    width: 1220px;
+    width: 900px;
     height: 39px;
     background: rgba(255, 255, 255, 0.41);
     position: relative;
@@ -732,7 +719,7 @@ footer{
 }
 
 footer a{
-    font-size: 17px;
+    font-size: 13px;
     font-weight: 600;
     text-transform: uppercase;
 }
@@ -817,13 +804,13 @@ footer .right li{
 }
 
 #services-body #contact-form-container .container.left{
-    margin: 80px 0px 0px 89px;
+    margin: 80px 0px 0px 9px;
     padding: 0px 0px 0px 0px;
 
 }
 
 #services-body #contact-form-container .container.right{
-    margin: 80px 80px 0px 0px;
+    margin: 80px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
 
 }
@@ -870,7 +857,7 @@ footer .right li{
 }
 
 #logo-row .container:first-child{
-    margin: 123px 0px 0px 178px;
+    margin: 123px 0px 0px 18px;
 }
 
 #logo-row .img-container{

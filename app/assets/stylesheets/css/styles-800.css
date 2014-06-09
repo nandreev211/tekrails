@@ -43,6 +43,8 @@ body {
 }
 
 .slide p {
+    font-size: 15px;
+    line-height: 23px;
     width: 295px;
     margin: 14px 0px 0px 0px;
     float: right;

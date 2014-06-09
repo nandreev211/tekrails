@@ -2,7 +2,7 @@ class Work < ActiveRecord::Base
   attr_accessible :name, :description, :url, :date, :portfolio
 
   has_attached_file :portfolio,
-    :styles => { :medium => "500x400>", :thumb => "200x200#" }
+    :styles => { :medium => "500x400>", :thumb => "280x280#" }
 
   validates_attachment_content_type :portfolio, content_type: ['image/jpeg', 'image/jpg', 'image/png', 'image/gif', 'application/octet-stream']
   validates_attachment_size :portfolio, less_than: 2000.kilobytes
