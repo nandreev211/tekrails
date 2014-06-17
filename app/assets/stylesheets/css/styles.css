@@ -1,12 +1,11 @@
 body{
     background: #f8f8f8 url("/assets/top-bg.png") 50% 0% no-repeat;
-    background-size: 100%;
     font-family: 'open sans', arial, helvetica, sans-serif;
     color: #181818;
 }
 
 .width-container{
-    width: 1220px;
+    width: 1221px;
     margin: 0 auto;
 }
 
@@ -71,7 +70,7 @@ header.fixed{
 }
 
 #nav a{
-    font-size: 18px;
+    font-size: 15px;
     color: inherit;
     vertical-align: middle;
     padding: 45px 0px 0px 0px;;
@@ -111,7 +110,8 @@ header.fixed{
 
 .slide-image{
     float: left;
-    margin: 0 0 0 146px;
+    width: 450px;
+    margin: 0 0 0 76px;
 }
 
 .slide{
@@ -212,7 +212,7 @@ h2,h3{
 }
 
 .border-left, .border-right{
-    width: 575px;
+    width: 576px;
     height: 1px;
     background: #d1d1d1;
 }

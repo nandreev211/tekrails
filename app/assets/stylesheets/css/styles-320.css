@@ -3,7 +3,7 @@ body {
 }
 
 #home-body #main-container {
-    background: none;
+    /*background: none;*/
 }
 
 #nav {
@@ -28,16 +28,17 @@ body {
     padding: 80px 0 0 0;
 }
 
-#home-body .slide .container {
+.slide .container {
     width: 280px;
     position: relative;
+    margin: 0px 0px 0px 0px;
 }
 
-.slide .container {
-    width: 145px;
-    margin: 0px 0px 0px 0px;
-    position: relative;
-}
+/*.slide .container {*/
+    /*width: 145px;*/
+    /*margin: 0px 0px 0px 0px;*/
+    /*position: relative;*/
+/*}*/
 
 .slide-image {
     margin: 0 0 0 -4px;
@@ -49,7 +50,7 @@ body {
     line-height: 19px;
 }
 
-#home-body .slide .heading-container {
+.slide .heading-container {
     min-height: 84px;
     display: table;
     width: 155px;
@@ -59,7 +60,7 @@ body {
     text-align: center;
 }
 
-#home-body .slide p {
+.slide p {
     width: 280px;
     margin: 6px 0px 0px 0px;
     float: right;
@@ -72,13 +73,13 @@ body {
     min-height: 100%;
 }
 
-.slide p {
-    font-size: 7px;
-    margin: 0;
-    float: right;
-    text-align: left;
-    line-height: 14px;
-}
+/*.slide p {*/
+    /*font-size: 7px;*/
+    /*margin: 0;*/
+    /*float: right;*/
+    /*text-align: left;*/
+    /*line-height: 14px;*/
+/*}*/
 
 .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {
     bottom: 14px;
@@ -484,7 +485,7 @@ body {
 }
 
 #home-body footer {
-    margin: 0px auto 0;
+    margin: -200px auto 0;
     width: 280px;
     padding: 0 0 100px 0;
 }
@@ -566,7 +567,7 @@ footer {
 #services-body .contact-form .submit-button {
     height: 36px;
     font-size: 12px;
-    background-size: 43px 36px;
+    background-size: 36px 36px;
     padding: 0px 47px 0px 0px;
 }
 
@@ -574,6 +575,11 @@ footer {
     margin: 43px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
     clear: both;
+}
+
+#services-body #contact-form-container .container.right {
+    margin: 80px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
 }
 
 #services-body .contact-form {
@@ -645,10 +651,10 @@ footer .left li {
     margin: 35px 0 0 0;
 }
 
-#contact-body .slide p {
-    font-size: 8px;
-    text-align: right;
-}
+/*#contact-body .slide p {*/
+    /*font-size: 8px;*/
+    /*text-align: right;*/
+/*}*/
 
 #contact-row .width-container {
     width: 320px;

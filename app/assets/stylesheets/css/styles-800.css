@@ -3,7 +3,7 @@ body {
 }
 
 #home-body #main-container {
-    background: none;
+    /*background: none;*/
 }
 
 #nav {
@@ -34,6 +34,7 @@ body {
 }
 
 .slide-image {
+    width: 330px;
     margin: 0 0 0 -4px;
 }
 
@@ -51,8 +52,8 @@ body {
 }
 
 .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {
-    /*bottom: 14px;*/
-    /*right: 40px;*/
+    bottom: -4px !important;
+    right: 0px !important;
 }
 
 #who-we-are-row .container {
@@ -91,12 +92,18 @@ body {
 }
 
 .frame .caption{
+    width: 201px;
     opacity: 1;
 }
 
 #work-row .frame-list {
     background: none;
     padding: 0 0 79px 9px;
+}
+
+.work-link img {
+    width: 201px;
+    height: 201px;
 }
 
 #services-row .border, #process-row .border, #home-body #team-row .border, #contact-row .border {
@@ -165,23 +172,24 @@ body {
 #process-container {
     height: 390px;
     background: url("/assets/process-bg-tablet.jpg") no-repeat 50% 0%;
+    background-size: contain;
     margin: 61px 0px 0px 0px;
 }
 
 .process {
-    width: 186px;
-    height: 186px;
-    line-height: 186px;
+    width: 172px;
+    height: 172px;
+    line-height: 172px;
 }
 
 #process1 {
-    top: 3px;
-    left: -26px;
+    top: 0px;
+    left: 0px;
 }
 
 #process2 {
-    top: 95px;
-    left: 66px;
+    top: 86px;
+    left: 86px;
 }
 
 #process2 p {
@@ -190,7 +198,7 @@ body {
 
 #process3 {
     top: 0px;
-    left: 157px;
+    left: 171px;
 }
 
 #process3 p {
@@ -198,13 +206,13 @@ body {
 }
 
 #process4 {
-    top: 95px;
-    left: 249px;
+    top: 86px;
+    left: 258px;
 }
 
 #process5 {
-    top: -3px;
-    left: 344px;
+    top: 0px;
+    left: 342px;
 }
 
 #process5 p {
@@ -212,8 +220,8 @@ body {
 }
 
 #process6 {
-    top: 95px;
-    left: 429px;
+    top: 85px;
+    left: 427px;
 }
 
 #process6 p {
@@ -221,8 +229,8 @@ body {
 }
 
 #process7 {
-    top: 6px;
-    left: 527px;
+    top: 0px;
+    left: 517px;
 }
 
 #home-body #team-row {
@@ -244,7 +252,7 @@ body {
 
 #home-body .team-member {
     margin: 0;
-    position: absolute;
+    /*position: absolute;*/
 }
 
 #home-body #team-member1 {
@@ -289,6 +297,7 @@ body {
 
 .team-member img {
     width: 220px;
+    /*left: 0px;*/
 }
 .team-member .image-container div {
     width: 220px;
@@ -326,7 +335,7 @@ body {
 
 #home-body .contact-form, #contact-body .contact-form {
     /* margin: 20px 0px 0px 0px; */
-    top: 10px; 
+    top: 0px;
     right: 0px;
 }
 
@@ -349,11 +358,11 @@ body {
 }
 
 #home-body #contact-row {
-     height: 400px;
+     height: 600px;
  }
 
 #home-body footer {
-    margin: 150px auto 0;
+    margin: -200px auto 0;
     width: 684px;
 }
 

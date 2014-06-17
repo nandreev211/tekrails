@@ -42,8 +42,8 @@
 .bx-wrapper .bx-pager,
 .bx-wrapper .bx-controls-auto {
 	position: absolute;
-	bottom: -4px;
-	right: 3px;
+	bottom: 25px;
+	right: 41px;
 	/* width: 100%; */
 }
 
