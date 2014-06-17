@@ -111,7 +111,7 @@ header.fixed{
 .slide-image{
     float: left;
     width: 450px;
-    margin: 0 0 0 76px;
+    /*margin: 0 0 0 76px;*/
 }
 
 .slide{
@@ -121,7 +121,7 @@ header.fixed{
 .slide .container{
     float: right;
     width: 640px;
-    margin: 12px 41px 0px 0px;
+    margin: 12px 0px 0px 0px;
 }
 
 .slide h1{
@@ -186,7 +186,9 @@ h2,h3{
 
 #who-we-are-row img{
     float: right;
-    margin: 35px 28px 0px 0px;
+    margin: 35px 0px 0px 0px;
+    width: 340px;
+    height: 340px;
 }
 
 #work-row{
@@ -300,7 +302,7 @@ h2,h3{
     color: #fff;
     font: 700 13px 'arial', 'helvetica', 'sans-serif';
     padding: 15px 0px 0px 0px;
-    margin: 0px auto 0;
+    margin: 10px auto 0;
     text-align: center;
     text-transform: uppercase;
     display: block;
@@ -767,7 +769,7 @@ footer .right li{
 
 #slider-row .red-button{
     float: right;
-    margin: 11px 46px 0px 0px;
+    margin: 11px 0px 0px 0px;
 }
 
 #work-body #work-row{

@@ -67,8 +67,8 @@ body {
 }
 
 #who-we-are-row img {
-    width: 250px;
-    margin: 64px 40px 0px 0px;
+    width: 250px; height: 250px;
+    margin: 64px 0px 0px 0px;
 }
 
 #work-row {
@@ -251,7 +251,7 @@ body {
 }
 
 #home-body .team-member {
-    margin: 0;
+    margin: 30px 0;
     /*position: absolute;*/
 }
 
@@ -449,10 +449,6 @@ footer {
 
 #services-body .line {
     min-height: 151px;
-}
-
-#slider-row .red-button {
-    margin: 11px 0px 0px 0px;
 }
 
 #contact-form-container .container {

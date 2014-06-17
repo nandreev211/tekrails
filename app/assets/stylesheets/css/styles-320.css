@@ -93,8 +93,8 @@ body {
 }
 
 #home-body .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {
-    bottom: -7px !important;
-    right: 13px !important;
+    /*bottom: -7px !important;*/
+    /*right: 13px !important;*/
 }
 
 .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {
@@ -550,10 +550,6 @@ footer {
 
 #services-body .line .line-icon {
     display: none;
-}
-
-#slider-row .red-button {
-    margin: 11px 0px 0px 0px;
 }
 
 #contact-form-container .container {

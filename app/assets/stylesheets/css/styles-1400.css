@@ -51,8 +51,6 @@ header.fixed{
 
 .bx-wrapper .bx-pager,
 .bx-wrapper .bx-controls-auto {
-    bottom: -4px !important;
-    right: 41px !important;
 }
 
 #nav a.current{
@@ -111,7 +109,6 @@ header.fixed{
 
 .slide-image{
     width: 330px;
-    margin: 0 0 0 46px;
 }
 
 .slide{
@@ -121,7 +118,7 @@ header.fixed{
 .slide .container{
     float: right;
     width: 465px;
-    margin: 12px 41px 0px 0px;
+    margin: 12px 0px 0px 0px;
 }
 
 .slide h1{
@@ -186,7 +183,9 @@ h2,h3{
 
 #who-we-are-row img{
     float: right;
-    margin: 35px 28px 0px 0px;
+    margin: 35px 0px 0px 0px;
+    width: 285px;
+    height: 285px;
 }
 
 #work-row{
@@ -763,7 +762,6 @@ footer .right li{
 
 #slider-row .red-button{
     float: right;
-    margin: 11px 46px 0px 0px;
 }
 
 #work-body #work-row{
