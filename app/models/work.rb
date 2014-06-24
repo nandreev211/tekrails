@@ -1,4 +1,5 @@
 class Work < ActiveRecord::Base
+  default_scope order('date DESC')
   attr_accessible :name, :description, :url, :date, :portfolio
 
   has_attached_file :portfolio,

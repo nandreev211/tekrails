@@ -29,6 +29,7 @@ class WorksController < ApplicationController
   def open_source
     @page = 'open-src'
     @banners = Banner.where("page = ?", "Open Source")
+    @open_sources = OpenSource.all
   end
 
   def contact
