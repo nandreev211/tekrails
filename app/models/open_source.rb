@@ -1,4 +1,5 @@
 class OpenSource < ActiveRecord::Base
+  default_scope order('created_at DESC')
   attr_accessible :title, :description
 
   validates_presence_of :title, :description
